@@ -37,7 +37,7 @@ slide {
             text: "written in few months";
             text: "in C";
             text: "using the Enlightenment Foundation Libraries";
-            text: "under the 2-clause BSD license (Simplified BSD/FreeBSD license";
+            text: "under the 2-clause BSD license (Simplified BSD/FreeBSD license)";
             text: "Latest Release: 0.2 (December 2012)";
         }
     }
@@ -228,7 +228,6 @@ slide {
             text: "colors like \033[0m";
             text: "title/icon like xterm with \033]0;Fosdem!\a";
             text: "with terminology: \033}";
-            text: "background";
             text: "tycat";
             text: "tyls";
         }
