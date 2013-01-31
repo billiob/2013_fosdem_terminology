@@ -9,7 +9,7 @@ transition: fade_content;
 
 slide {
     // do not display the area 'top'. This area is defined in the layout 'title'
-    ignore_area: "header_image";
+    //ignore_area: "header_image";
     layout: title;
     custom_area: "top" 0.15 -0.2 0.85 0.5;
     header_image: "";
@@ -27,18 +27,18 @@ slide {
     layout: 1_area;
     title: "What is terminology?";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "A terminal emulator";
-            text: "mimic xterm ($TERM is xterm)";
-            text: "written in few months";
-            text: "in C";
-            text: "using the Enlightenment Foundation Libraries";
-            text: "under the 2-clause BSD license (Simplified BSD/FreeBSD license)";
-            text: "Latest Release: 0.2 (December 2012)";
+            text: " A terminal emulator";
+            text: " mimic xterm ($TERM is xterm)";
+            text: " written in few months";
+            text: " in C";
+            text: " using the Enlightenment Foundation Libraries";
+            text: " under the 2-clause BSD license (Simplified BSD/FreeBSD license)";
+            text: " Latest Release: 0.2 (December 2012)";
         }
     }
 }
@@ -47,16 +47,16 @@ slide {
     layout: 1_area;
     title: "What are the EFL?";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "Libraries written in C";
-            text: "clean base to build Enlightenment";
-            text: "focus on embedded world";
-            text: "fast";
-            text: "small";
+            text: " Libraries written in C";
+            text: " clean base to build Enlightenment";
+            text: " focus on embedded world";
+            text: " fast";
+            text: " small";
         }
     }
 }
@@ -65,18 +65,18 @@ slide {
     layout: 1_area;
     title: "More details about the EFL?";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "Eina: data types and file manipulation";
-            text: "Eet: serialisation and storage library";
-            text: "Evas: statefull canvas library";
-            text: "Ecore: main loop, events, timer, network, …";
-            text: "Edje: layout and theming";
-            text: "Elementary: widget library";
-            text: "Emotion: video-playing helper";
+            text: " Eina: data types and file manipulation";
+            text: " Eet: serialisation and storage library";
+            text: " Evas: statefull canvas library";
+            text: " Ecore: main loop, events, timer, network, …";
+            text: " Edje: layout and theming";
+            text: " Elementary: widget library";
+            text: " Emotion: video-playing helper";
         }
     }
 }
@@ -98,15 +98,15 @@ slide {
     layout: 1_area;
     title: "Backgrounds";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "Translucent";
-            text: "Static images";
-            text: "GIF";
-            text: "PDF";
+            text: " Translucent";
+            text: " Static images";
+            text: " GIF";
+            text: " PDF";
         }
     }
 }
@@ -115,17 +115,17 @@ slide {
     layout: 1_area;
     title: "Rendering";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "X11";
-            text: "Wayland";
-            text: "Linux framebuffer (fbcon)";
-            text: "Finger/touch controlled";
-            text: "UI scaling factors";
-            text: "OpenGL or OpenGL-ES2";
+            text: " X11";
+            text: " Wayland";
+            text: " Linux framebuffer (fbcon)";
+            text: " Finger/touch controlled";
+            text: " UI scaling factors";
+            text: " OpenGL or OpenGL-ES2";
         }
     }
 }
@@ -134,15 +134,15 @@ slide {
     layout: 1_area;
     title: "Fonts";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "Bitmap and scalable fonts";
-            text: "Full Utf-8 support";
-            text: "Wide characters";
-            text: "No bold/italic support yet";
+            text: " Bitmap and scalable fonts";
+            text: " Full Utf-8 support";
+            text: " Wide characters";
+            text: " No bold/italic support yet";
         }
     }
 }
@@ -151,14 +151,14 @@ slide {
     layout: 1_area;
     title: "Colors";
     subtitle: "";
-    //header_image: "logo-s.png";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "256 Colors support";
-            text: "Fully themable";
-            text: "No configuration UI yet";
+            text: " 256 Colors support";
+            text: " Fully themable";
+            text: " No configuration UI yet";
         }
     }
 }
@@ -193,13 +193,14 @@ slide {
     layout: 1_area;
     title: "Link detection";
     subtitle: "";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "URL";
-            text: "email address";
-            text: "file paths!";
+            text: " URL";
+            text: " Email address";
+            text: " File paths!";
         }
     }
 }
@@ -208,18 +209,21 @@ slide {
     layout: 1_area;
     title: "Escape codes";
     subtitle: "";
+    header_image: "terminology.png";
 
     area {
         name: center;
         items {
-            text: "colors like \033[0m";
-            text: "title/icon like xterm with \033]0;Fosdem!\a";
-            text: "with terminology: \033}";
-            text: "tycat";
-            text: "tyls";
+            text: " Colors like \033[0m";
+            text: " Title/icon like xterm with \033]0;Fosdem!\a";
+            text: " With terminology: \033}";
+            text: " tycat";
+            text: " tyls";
         }
     }
 }
+// TODO: next release?
+// 
 
 slide {
     layout: "title";
