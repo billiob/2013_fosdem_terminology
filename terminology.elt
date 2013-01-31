@@ -217,11 +217,34 @@ slide {
             text: " Colors like \033[0m";
             text: " Title/icon like xterm with \033]0;Fosdem!\a";
             text: " With terminology: \033}";
+            text: " Set Background Temporarily: \033}bt/tmp/foo.jpg\000";
             text: " tycat";
             text: " tyls";
         }
     }
 }
+
+slide {
+    layout: 1_area;
+    title: "What's next?";
+    subtitle: "";
+    header_image: "terminology.png";
+
+    area {
+        name: center;
+        items {
+            text: " Fix remaining bugs";
+            text: " Scrollbars anyone?";
+            text: " Better UI";
+            text: " Text Reflow";
+            text: " Tabs";
+            text: " …";
+            text: " Works with EFL 1.7 → new release in less than 10 years ☺";
+        }
+    }
+}
+
+
 // TODO: next release?
 // 
 
