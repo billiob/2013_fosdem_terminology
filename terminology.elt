@@ -165,21 +165,8 @@ slide {
 
 slide {
     layout: "title";
-    title: "Themes";
-    subtitle: "we're serious about video support…";
-
-    area {
-        name: "top";
-        image {
-            image: "logo.png";
-        }
-    }
-}
-
-slide {
-    layout: "title";
-    title: "Themes";
-    subtitle: "we're serious about video support…";
+    title: "Themes!";
+    subtitle: "";
 
     area {
         name: "top";
