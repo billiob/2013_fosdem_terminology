@@ -1,5 +1,5 @@
 layout: 2_columns_left;
-foot_text :"Boris 'billiob' Faure, boris@fau.re";
+foot_text :"Boris 'billiob' Faure, billiob@gmail.com";
 foot_image: ""; // FIXME
 header_image: "logo.png"; // FIXME
 title: "Terminology";
