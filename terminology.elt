@@ -33,7 +33,7 @@ slide {
         name: center;
         items {
             text: " A terminal emulator";
-            text: " mimic xterm ($TERM is xterm)";
+            text: " mimics xterm ($TERM is set to 'xterm')";
             text: " written in few months";
             text: " in C (⋍13k LOC)";
             text: " using the Enlightenment Foundation Libraries";
