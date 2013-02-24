@@ -105,6 +105,7 @@ slide {
         items {
             text: " Translucent";
             text: " Static images";
+            text: " SVG";
             text: " GIF";
             text: " PDF";
         }
